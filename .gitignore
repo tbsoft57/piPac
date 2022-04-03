@@ -1,0 +1,13 @@
+node_modules/
+.nano/
+.ssh/
+.npm/
+.bash_history/
+.bashrc/
+.profile/
+id_rsa.pub
+id_rsa
+id_dsa.pub
+id_dsa
+*.pem
+*.key

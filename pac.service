@@ -1,0 +1,10 @@
+[Unit]
+ Description=pac service
+ After=multi-user.target
+
+ [Service]
+ Type=idle
+ ExecStart=/usr/bin/node /root/index.js 
+
+ [Install]
+ WantedBy=multi-user.target
